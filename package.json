@@ -1,0 +1,20 @@
+{
+  "name": "omedym",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "report" : "npx playwright show-report",
+    "headless" : "npx playwright test",
+    "chrome" : "npx playwright test --project=chromium"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.37.1"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.1"
+  }
+}
